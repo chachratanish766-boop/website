@@ -273,6 +273,24 @@ h2 {
   margin: 0 0 32px;
 }
 
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.edu-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.edu-school { font-weight: 600; color: var(--ink); }
+.edu-degree { color: var(--ink-faint); }
+
 /* Contact */
 
 .contact {
